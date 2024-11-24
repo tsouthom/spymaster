@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cfy3vcaojr8dk"]
+
+[ext_resource type="FontFile" uid="uid://dtr1gcyn3bjki" path="res://assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf" id="1_4fupm"]
+
+[resource]
+default_font = ExtResource("1_4fupm")
+default_font_size = 12
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/font_sizes/font_size = 12
+Label/fonts/font = ExtResource("1_4fupm")

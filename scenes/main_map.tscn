@@ -1,0 +1,67 @@
+[gd_scene load_steps=9 format=3 uid="uid://wpmm8at5l3yk"]
+
+[ext_resource type="Texture2D" uid="uid://d4hwxvqy8meeu" path="res://assets/map_background.png" id="1_phlfu"]
+[ext_resource type="Texture2D" uid="uid://cus5vukyjo1li" path="res://assets/europe_map.png" id="2_1pqj6"]
+[ext_resource type="PackedScene" uid="uid://driebkuocmgvp" path="res://scenes/notebook.tscn" id="3_akufu"]
+[ext_resource type="Texture2D" uid="uid://bfsog42rjqagv" path="res://assets/markers/marker_london.png" id="4_ckskc"]
+[ext_resource type="Script" path="res://scripts/dialogue_markers.gd" id="4_jmcsn"]
+[ext_resource type="Theme" uid="uid://cfy3vcaojr8dk" path="res://assets/fonts/themes/map_markers.tres" id="5_iug6t"]
+[ext_resource type="PackedScene" uid="uid://bdg27icubf848" path="res://scenes/map_marker.tscn" id="6_pnks2"]
+[ext_resource type="Script" path="res://scripts/camera_map.gd" id="6_y82m2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MapBackground" type="Sprite2D" parent="."]
+position = Vector2(640, 359)
+scale = Vector2(1, 0.998)
+texture = ExtResource("1_phlfu")
+
+[node name="MapOverlay" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(640, 359)
+scale = Vector2(0.992, 0.986111)
+texture = ExtResource("2_1pqj6")
+
+[node name="Notebook" parent="." instance=ExtResource("3_akufu")]
+
+[node name="DialogueMarkers" type="Node" parent="."]
+script = ExtResource("4_jmcsn")
+
+[node name="London" type="Sprite2D" parent="DialogueMarkers"]
+z_index = 4
+position = Vector2(575, 527)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_ckskc")
+
+[node name="LabelLondon" type="Label" parent="DialogueMarkers/London"]
+z_index = 4
+anchors_preset = -1
+anchor_left = -0.0416667
+anchor_top = -0.291667
+anchor_right = -0.0416667
+anchor_bottom = -0.291667
+offset_left = -28.0
+offset_top = 18.0
+offset_right = 31.0
+offset_bottom = 41.0
+theme = ExtResource("5_iug6t")
+text = "London"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Dover" parent="DialogueMarkers" instance=ExtResource("6_pnks2")]
+z_index = 5
+position = Vector2(609, 549)
+marker_id = 1
+marker_name = "Dover"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(574, 530)
+zoom = Vector2(3, 3)
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+script = ExtResource("6_y82m2")
