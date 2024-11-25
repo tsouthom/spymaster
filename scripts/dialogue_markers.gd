@@ -10,7 +10,8 @@ func _ready() -> void:
 		if sprite.has_signal('marker_clicked'):
 			print(sprite.name + ' has signal marker_clicked')
 			sprite.connect('marker_clicked', on_marker_clicked)
+			print(sprite.is_connected('marker_clicked', on_marker_clicked))
 			
 func on_marker_clicked(marker_id):
 	# TO DO: write this function
-	print('Signal received from' + str(marker_id))
+	print('Signal received from marker number ' + str(marker_id))
