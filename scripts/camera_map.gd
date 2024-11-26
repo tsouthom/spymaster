@@ -1,8 +1,8 @@
 extends Camera2D
 
-var move_speed = 200
+var move_speed = 300
 var follow_speed = 2
-var edge_threshold = 20 # Distance from the screen edge to trigger movement
+var edge_threshold = 40 # Distance from the screen edge to trigger movement
 var screen_size = Vector2()
 
 func _ready():
@@ -10,18 +10,6 @@ func _ready():
 	screen_size = get_viewport().size
 
 func _process(delta):
-	# Camera Movement
-	# Keys
-	#var input = Vector2(
-		#Input.get_action_strength('map_right') - Input.get_action_strength('map_left'),
-		#Input.get_action_strength('map_down') - Input.get_action_strength('map_up'),
-	#)
-	#position += input * move_speed * delta
-	
-	# Mouse
-	#var mouse_pos = get_viewport().get_mouse_position()
-	#position = position.lerp(mouse_pos, follow_speed * delta)
-	
 	var mouse_pos = get_viewport().get_mouse_position()
 	var mouse_input = Vector2()
 	

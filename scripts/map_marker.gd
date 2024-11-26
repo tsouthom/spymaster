@@ -1,10 +1,16 @@
+@tool
 extends Sprite2D
 
 @onready var marker_label = $Label
 
 # The Marker's Unique ID
-@export var marker_id = 0
-@export var marker_name = 'Place Town'
+@export var marker_id = 0:
+	set(value): marker_id = value
+@export var marker_name = 'Place Town':
+	set(value):
+		marker_name = value
+		# Update label text in editor
+		if marker_label: marker_label.text = marker_name
 
 # Signal: When clicked
 signal marker_clicked(marker_id)
