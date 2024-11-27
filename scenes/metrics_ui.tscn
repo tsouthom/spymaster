@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5sqndxne3l2"]
+
+[ext_resource type="Theme" uid="uid://geqo1wfa7a58" path="res://assets/fonts/themes/ui_labels.tres" id="2_h4i3c"]
+[ext_resource type="Texture2D" uid="uid://c0h5c5chtr6u8" path="res://assets/crown.png" id="2_th7ly"]
+[ext_resource type="Texture2D" uid="uid://bwgvygi0r5dnm" path="res://assets/scroll.png" id="3_bih20"]
+[ext_resource type="Texture2D" uid="uid://dbsixdvs24jxs" path="res://assets/pouch.png" id="4_l0yh4"]
+
+[node name="MetricsUI" type="CanvasLayer"]
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+offset_left = 802.0
+offset_top = 533.0
+offset_right = 1215.0
+offset_bottom = 655.0
+theme = ExtResource("2_h4i3c")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_right = 10
+
+[node name="GridContainer" type="GridContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 24
+columns = 3
+
+[node name="LoyaltyIcon" type="TextureRect" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+texture = ExtResource("2_th7ly")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="LoyaltyLabel" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+theme = ExtResource("2_h4i3c")
+text = "Loyalty"
+
+[node name="LoyaltyPoints" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+theme = ExtResource("2_h4i3c")
+text = "10"
+
+[node name="ClandestineIcon" type="TextureRect" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+texture = ExtResource("3_bih20")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="ClandestineLabel" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+theme = ExtResource("2_h4i3c")
+text = "Clandestine Actions"
+
+[node name="ClandestineMoves" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+theme = ExtResource("2_h4i3c")
+text = "12"
+
+[node name="BribeIcon" type="TextureRect" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+texture = ExtResource("4_l0yh4")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="BribeLabel" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+theme = ExtResource("2_h4i3c")
+text = "Bribe Bags"
+
+[node name="BribeBags" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
+layout_mode = 2
+theme = ExtResource("2_h4i3c")
+text = "7"

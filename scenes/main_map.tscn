@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://wpmm8at5l3yk"]
+[gd_scene load_steps=8 format=3 uid="uid://wpmm8at5l3yk"]
 
 [ext_resource type="Texture2D" uid="uid://d4hwxvqy8meeu" path="res://assets/map_background.png" id="1_phlfu"]
 [ext_resource type="Texture2D" uid="uid://cus5vukyjo1li" path="res://assets/europe_map.png" id="2_1pqj6"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://scripts/dialogue_markers.gd" id="4_jmcsn"]
 [ext_resource type="PackedScene" uid="uid://bdg27icubf848" path="res://scenes/map_marker.tscn" id="6_pnks2"]
 [ext_resource type="Script" path="res://scripts/camera_map.gd" id="6_y82m2"]
+[ext_resource type="PackedScene" uid="uid://c5sqndxne3l2" path="res://scenes/metrics_ui.tscn" id="7_afu3h"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -58,3 +59,5 @@ limit_bottom = 720
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 script = ExtResource("6_y82m2")
+
+[node name="MetricsUI" parent="." instance=ExtResource("7_afu3h")]
