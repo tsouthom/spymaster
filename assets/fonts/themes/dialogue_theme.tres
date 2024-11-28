@@ -1,0 +1,27 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://dytt886l72gq0"]
+
+[ext_resource type="FontFile" uid="uid://dtr1gcyn3bjki" path="res://assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf" id="1_gt5hj"]
+[ext_resource type="Texture2D" uid="uid://dlahuxgoeaiwr" path="res://assets/button_hover.png" id="2_kugq2"]
+[ext_resource type="Texture2D" uid="uid://bp08prhehuymn" path="res://assets/button_normal.png" id="2_x7xjf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_a7rxq"]
+texture = ExtResource("2_kugq2")
+texture_margin_left = 6.0
+texture_margin_top = 4.0
+texture_margin_right = 6.0
+texture_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eeiix"]
+texture = ExtResource("2_x7xjf")
+texture_margin_left = 12.0
+texture_margin_top = 6.0
+texture_margin_right = 12.0
+texture_margin_bottom = 6.0
+
+[resource]
+Button/font_sizes/font_size = 20
+Button/fonts/font = ExtResource("1_gt5hj")
+Button/styles/hover = SubResource("StyleBoxTexture_a7rxq")
+Button/styles/normal = SubResource("StyleBoxTexture_eeiix")
+Label/font_sizes/font_size = 16
+Label/fonts/font = ExtResource("1_gt5hj")

@@ -1,5 +1,6 @@
 extends Node
 
+# Metrics
 var legitimacy = 10
 var bribe_bags = 7
 var cland_moves = 10

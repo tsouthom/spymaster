@@ -1,6 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dsjmb8dt5hxpc"]
+[gd_scene load_steps=7 format=3 uid="uid://dsjmb8dt5hxpc"]
 
+[ext_resource type="Script" path="res://scripts/dialogue_box.gd" id="1_1spu4"]
 [ext_resource type="Texture2D" uid="uid://5lamdv48dn7g" path="res://assets/dialogue_box _half_screen.png" id="1_b4xto"]
+[ext_resource type="Theme" uid="uid://dytt886l72gq0" path="res://assets/fonts/themes/dialogue_theme.tres" id="1_o453r"]
 
 [sub_resource type="Animation" id="Animation_01gw1"]
 resource_name = "DialogueBoxAppears"
@@ -8,7 +10,7 @@ length = 0.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("..:modulate")
+tracks/0/path = NodePath(".:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -23,7 +25,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("..:modulate")
+tracks/0/path = NodePath(".:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -39,45 +41,93 @@ _data = {
 "RESET": SubResource("Animation_ellpq")
 }
 
-[node name="DialogueBox" type="Panel"]
-modulate = Color(1, 1, 1, 0)
-anchors_preset = -1
-anchor_left = 0.5
-anchor_top = 0.511
-anchor_right = 0.5
-anchor_bottom = 0.586
-offset_left = -19.0
-offset_right = 21.0
-offset_bottom = 40.0
-grow_horizontal = 2
+[node name="DialogueBox" type="CanvasLayer"]
+script = ExtResource("1_1spu4")
 
 [node name="Sprite" type="Sprite2D" parent="."]
-position = Vector2(-3, -348.92)
+modulate = Color(1, 1, 1, 0)
+position = Vector2(618, 19)
 scale = Vector2(1.2, 1.2)
 texture = ExtResource("1_b4xto")
 centered = false
 
 [node name="LabelPerson" type="Label" parent="Sprite"]
-offset_left = 6.0
-offset_top = 5.0
-offset_right = 120.0
-offset_bottom = 28.0
+anchors_preset = -1
+anchor_left = -0.00878906
+anchor_top = 0.000413566
+anchor_right = -0.000976562
+anchor_bottom = 0.000413568
+offset_left = 11.1667
+offset_top = 4.83333
+offset_right = 125.167
+offset_bottom = 27.8333
+theme = ExtResource("1_o453r")
 text = "Person Talking"
+metadata/_edit_use_anchors_ = true
 
-[node name="RTLabelDiscussion" type="RichTextLabel" parent="Sprite"]
-offset_left = 8.0
-offset_top = 39.0
-offset_right = 501.0
-offset_bottom = 124.0
-text = "The Person talking is giving us some important information. Perhaps it would be wise to listen to him."
+[node name="LabelText" type="Label" parent="Sprite"]
+anchors_preset = -1
+anchor_left = -0.00944011
+anchor_top = 0.000413568
+anchor_right = 0.736654
+anchor_bottom = 0.474359
+offset_left = 12.8333
+offset_top = 39.8333
+offset_right = 126.833
+offset_bottom = 62.8333
+theme = ExtResource("1_o453r")
+text = "If you want the removed child to be added back in as a child of the new root, then you need to store it in a variable when you remove it, and yourNewRoot.add_child(NodeToRemove) it back in after you’ve made a new root"
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
 
-[node name="VBoxOptions" type="VBoxContainer" parent="Sprite"]
-offset_left = 7.0
-offset_top = 128.0
-offset_right = 504.0
-offset_bottom = 216.0
+[node name="GridContainer" type="GridContainer" parent="Sprite"]
+offset_left = 69.1666
+offset_top = 301.667
+offset_right = 436.167
+offset_bottom = 382.667
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 15
+theme_override_constants/v_separation = 7
+columns = 3
+
+[node name="Investigate" type="Button" parent="Sprite/GridContainer"]
+layout_mode = 2
+theme = ExtResource("1_o453r")
+text = "Investigate"
+
+[node name="Talk" type="Button" parent="Sprite/GridContainer"]
+layout_mode = 2
+theme = ExtResource("1_o453r")
+text = "Talk to"
+
+[node name="Surveil" type="Button" parent="Sprite/GridContainer"]
+layout_mode = 2
+theme = ExtResource("1_o453r")
+text = "Surveil"
+
+[node name="Bribe" type="Button" parent="Sprite/GridContainer"]
+layout_mode = 2
+theme = ExtResource("1_o453r")
+text = "Bribe"
+
+[node name="Torture" type="Button" parent="Sprite/GridContainer"]
+layout_mode = 2
+theme = ExtResource("1_o453r")
+text = "Torture"
+
+[node name="Leave" type="Button" parent="Sprite/GridContainer"]
+layout_mode = 2
+theme = ExtResource("1_o453r")
+text = "Leave"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
 libraries = {
 "": SubResource("AnimationLibrary_ea1mi")
 }
+
+[connection signal="pressed" from="Sprite/GridContainer/Investigate" to="." method="_on_investigate_pressed"]
+[connection signal="pressed" from="Sprite/GridContainer/Talk" to="." method="_on_talk_pressed"]
+[connection signal="pressed" from="Sprite/GridContainer/Surveil" to="." method="_on_surveil_pressed"]
+[connection signal="pressed" from="Sprite/GridContainer/Bribe" to="." method="_on_bribe_pressed"]
+[connection signal="pressed" from="Sprite/GridContainer/Torture" to="." method="_on_torture_pressed"]
+[connection signal="pressed" from="Sprite/GridContainer/Leave" to="." method="_on_leave_pressed"]

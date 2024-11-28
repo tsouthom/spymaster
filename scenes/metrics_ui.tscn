@@ -1,17 +1,19 @@
-[gd_scene load_steps=5 format=3 uid="uid://c5sqndxne3l2"]
+[gd_scene load_steps=6 format=3 uid="uid://c5sqndxne3l2"]
 
+[ext_resource type="Script" path="res://scripts/metrics_ui.gd" id="1_rfsv7"]
 [ext_resource type="Theme" uid="uid://geqo1wfa7a58" path="res://assets/fonts/themes/ui_labels.tres" id="2_h4i3c"]
 [ext_resource type="Texture2D" uid="uid://c0h5c5chtr6u8" path="res://assets/crown.png" id="2_th7ly"]
 [ext_resource type="Texture2D" uid="uid://bwgvygi0r5dnm" path="res://assets/scroll.png" id="3_bih20"]
 [ext_resource type="Texture2D" uid="uid://dbsixdvs24jxs" path="res://assets/pouch.png" id="4_l0yh4"]
 
 [node name="MetricsUI" type="CanvasLayer"]
+script = ExtResource("1_rfsv7")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
-offset_left = 802.0
-offset_top = 533.0
-offset_right = 1215.0
-offset_bottom = 655.0
+offset_left = 818.0
+offset_top = 553.0
+offset_right = 1231.0
+offset_bottom = 675.0
 theme = ExtResource("2_h4i3c")
 
 [node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
@@ -33,7 +35,7 @@ stretch_mode = 5
 [node name="LoyaltyLabel" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
 layout_mode = 2
 theme = ExtResource("2_h4i3c")
-text = "Loyalty"
+text = "Legitimacy"
 
 [node name="LoyaltyPoints" type="Label" parent="PanelContainer/MarginContainer/GridContainer"]
 layout_mode = 2

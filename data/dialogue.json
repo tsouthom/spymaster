@@ -1,0 +1,37 @@
+[
+	{
+		"marker_id":1, 
+		"status_id":1,
+		"action_id":1,
+		"message":"Have you lost your marbles, Sir Francis?! You can't possibly investigate the Queen herself!", 
+		"update_id":1
+	},
+	{
+		"marker_id":1,
+		"status_id":1, 
+		"action_id":2, 
+		"message":"The Queen wishes you godspeed in getting to the bottom of this plot. She awaits your good tidings when you learn more.", 
+		"update_id":1
+	},
+	{
+		"marker_id":1, 
+		"status_id":1, 
+		"action_id":3, 
+		"message":"What is wrong with you, Sir Francis?! You can't possibly order surveillance on the Queen!", 
+		"update_id":1
+	},
+	{
+		"marker_id":1, 
+		"status_id":1, 
+		"action_id":4, 
+		"message":"The Queen is not interested in your bribes, Sir Francis! Mainly out of honor and love for the country, and partly because she was the one to provide you the funds in the first place. [You lose 1 loyalty and a 1 bribe bag]", 
+		"update_id":1
+	},
+	{
+		"marker_id":1, 
+		"status_id":1, 
+		"action_id":5, 
+		"message":"THIS IS OUTRAGEOUS! ARREST THIS MAN FOR TREASON!! [You lose 10 loyalty points]", 
+		"update_id":1
+	}
+]

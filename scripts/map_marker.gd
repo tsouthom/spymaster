@@ -12,8 +12,11 @@ extends Sprite2D
 		# Update label text in editor
 		if marker_label: marker_label.text = marker_name
 
+# Marker Information Status
+var marker_status = 1
+
 # Signal: When clicked
-signal marker_clicked(marker_id)
+signal marker_clicked(marker_id, marker_status)
 
 func _ready():	
 	# Set the marker's name
@@ -22,4 +25,4 @@ func _ready():
 func _on_MarkerArea_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	# Check for click on the marker
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-		emit_signal('marker_clicked', marker_id)
+		emit_signal('marker_clicked', marker_id, marker_status)

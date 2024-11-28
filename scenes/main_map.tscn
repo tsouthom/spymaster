@@ -8,7 +8,7 @@
 [ext_resource type="Script" path="res://scripts/camera_map.gd" id="6_y82m2"]
 [ext_resource type="PackedScene" uid="uid://c5sqndxne3l2" path="res://scenes/metrics_ui.tscn" id="7_afu3h"]
 
-[node name="Node2D" type="Node2D"]
+[node name="MainMap" type="Node2D"]
 
 [node name="MapBackground" type="Sprite2D" parent="."]
 position = Vector2(639, 359)
