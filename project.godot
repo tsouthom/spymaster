@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="Spymaster"
+config/description="Spymaster is a medieval point-and-click adventure based on the life of Sir Francis Walsingham, Personal Secratary to Queen Elizabeth the I, and the eponymous \"Spymaster\" in her court. The game's events focus around a plot roughly based on the Throckmorton Plot.
+
+This game is an entry to the 2024 Game Off Jam by Thomas Tsoulias (@tsouthom)."
+config/version="1"
 run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://icon.png"
+config/macos_native_icon="res://icon.icns"
+config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
