@@ -19,6 +19,15 @@ func load_json_file(filePath: String):
 		return parsed_result
 	else:
 		print("Dialogue file missing.")
+		
+func reset_logic() -> void:
+	# When Game Over, call this function during transition to the MainMenu
+	dialogue_in_motion = false
+	marker_in_focus = 0
+	marker_status_in_focus = 0
+	
+	for key in marker_data.keys():
+		marker_data[key]['status'] = 1
 
 # Save file with updatable metrics
 # This would normallly be an outside save file
@@ -27,4 +36,6 @@ var marker_data = {
 	1: {"name": "London", "status": 1},
 	2: {"name": "Dover", "status": 1},
 	3: {"name": "Chartley Castle", "status": 1},
+	4: {"name": "Paris", "status": 1},
+	5: {"name": "Canterbury", "status": 1}
 }

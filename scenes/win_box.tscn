@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvpfba2na10vh"]
+
+[ext_resource type="Script" path="res://scripts/game_over_box.gd" id="1_81ap2"]
+[ext_resource type="Theme" uid="uid://d2awbiv6360y" path="res://assets/fonts/themes/game_over.tres" id="1_fdju4"]
+[ext_resource type="FontFile" uid="uid://qd8nia0r0ak4" path="res://assets/fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf" id="2_4431y"]
+
+[node name="WinBox" type="Control"]
+z_index = 60
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_81ap2")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 242.0
+offset_right = 456.0
+offset_bottom = 386.0
+theme = ExtResource("1_fdju4")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="WinTitle" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_fdju4")
+theme_override_fonts/font = ExtResource("2_4431y")
+theme_override_font_sizes/font_size = 24
+text = "Congratulations!"
+horizontal_alignment = 1
+
+[node name="WinText" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_fdju4")
+theme_override_font_sizes/font_size = 12
+text = "You have successfully uncovered the existence of a plot and received the praise of the Queen!"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="BackToMenu" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_fdju4")
+text = "Back to Main Menu"
+
+[connection signal="pressed" from="PanelContainer/MarginContainer/VBoxContainer/BackToMenu" to="." method="_on_back_to_menu_pressed"]

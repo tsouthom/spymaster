@@ -1,0 +1,121 @@
+[
+  {
+    "marker_id": 2,
+    "status_id": 0,
+    "action_id": 0,
+    "message": "In Dover, you come across Charles Paget, a former Cambridge student and the younger son of William Paget, 1st Baron Paget. He appears to be a figure of some interest, with potentially useful connections.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 2,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "The area around Dover is mostly quiet. You notice some local gatherings, but nothing particularly stands out.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 2,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Charles Paget greets you cordially but keeps the conversation polite and shallow. He seems hesitant to discuss anything of importance.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 2,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Through careful surveillance, you observe Charles Paget attending a Catholic church service discreetly. It appears he is committed to his faith, despite the risks",
+    "update_id": 2
+  },
+  {
+    "marker_id": 2,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Charles Paget frowns at your suggestion of bribery. 'I am not interested in your coin, Sir Francis,' he replies curtly.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 2,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Charles Paget gives you an incredulous look. 'You dare threaten me, Sir Francis? This is not the conduct of a Queen's man.' He walks away, clearly offended.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 2,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "The area around Charles Paget's residence seems unremarkable. No unusual activity is observed during your investigation.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 2,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "After some persuasion, Charles Paget admits to being a Catholic zealot. He claims that he intends to leave England peacefully, though you sense there might be more to his story.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 2,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Charles Paget refuses any attempts at bribery, giving you a stern look. 'I am not a man to be swayed by gold, Sir Francis.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 2,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Charles Paget has not left his house the whole night. Surveillance has yielded little apart from the fact that its target seems uninterested in the pleasures of the night.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 2,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Charles Paget appears unshaken by your threats. He maintains his composure and simply walks away.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 2,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating further, you notice Paget packing his belongings, seemingly preparing for a departure. It appears his claims of leaving England might be genuine.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 2,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Charles Paget seems embarrashed by his latest revelations. He becomes guarded and refuses to talk to you anymore.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 2,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Charles Paget continues his pattern of home-work-Church-home, in that order. Surveillance yields nothing new.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 2,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "With the right amount of coin, Charles Paget reveals that there is movement among the bishops in the north of England. 'Something is brewing,' he warns, though he offers no further details.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 2,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Charles Paget is visibly angered by your threats. 'I have nothing more to say to you, Sir Francis,' he says, his tone cold and unyielding.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 2,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Charles Paget appears wary of you now, but the information about the bishops in the north lingers in your mind. It could be a lead worth following.",
+    "update_id": 4
+  }
+]

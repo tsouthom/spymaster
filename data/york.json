@@ -1,0 +1,135 @@
+[
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In York, you find Sir Francis Throckmorton delivering lectures on Jesuits and their faith. His tone is clearly propagandist, but he remains cordial to you, acknowledging your presence as a fellow aristocrat.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Your investigation around the lecture hall yields nothing particularly interesting. Throckmorton appears focused on his lectures and his interactions with the audience are limited to formalities.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Throckmorton gives you a knowing smile as you talk to him. 'Ah, Sir Francis, the Catholic Church always appreciates the charity of the faithful. It helps alleviate the suffering of the poor, you know.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Surveillance reveals nothing beyond Throckmorton’s usual lectures and interactions with attendees. He seems careful to maintain his public persona.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Throckmorton chuckles softly when you mention money. 'I am always in favor of aiding those less fortunate, Sir Francis, but I fear such generosity is best directed elsewhere for now.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Throckmorton’s expression turns cold when you threaten him. 'Sir Francis, let us not forget we are both men of standing. Such crude tactics are beneath us, are they not?'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Throckmorton has mentioned that the Catholic Church is receiving generous donations to alleviate the suffering of the poor. He seems to hint at something more significant beneath the surface.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Further investigation reveals little beyond Throckmorton’s lectures and usual public appearances. He maintains an air of respectability in all he does.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Throckmorton remains cordial but cautious, providing no new information. 'I am merely an observer of faith, Sir Francis, nothing more.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Surveillance of Throckmorton reveals nothing beyond his usual activities. He is meticulous in maintaining his public persona.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Throckmorton raises an eyebrow as you offer him money. 'For the charities, you say? Very well, Sir Francis, I will see to it. You may be interested to know that things are indeed stirring in the Catholic world.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Throckmorton sighs at your threats. 'Please, Sir Francis, such brutishness is unbecoming of a gentleman like yourself. Let us proceed with more decorum.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Throckmorton has hinted that something is indeed stirring within the Catholic world. He seems to know more than he is willing to share openly.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating further into Throckmorton's affairs yields few new details. His movements are guarded, and his activities remain largely public.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Throckmorton offers you a tight-lipped smile. 'I am but a lecturer, Sir Francis. My influence is limited to words and teachings, nothing more.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Through surveillance, you discover that Throckmorton has been attending secret meetings with known Catholic plotters. His involvement in something larger is undeniable.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Throckmorton gives you a wry smile as you mention more money. 'Sir Francis, I must admit, your persistence is impressive. But there are some things that coin cannot buy.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Throckmorton’s tone turns icy at your threats. 'You may find that threats make for poor allies, Sir Francis. I suggest a different approach.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Surveillance has confirmed that Throckmorton is involved in secret meetings with Catholic plotters. This is undeniable proof of his role in a larger conspiracy.",
+    "update_id": 4
+  }
+]

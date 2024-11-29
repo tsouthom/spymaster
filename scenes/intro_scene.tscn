@@ -1,8 +1,37 @@
-[gd_scene load_steps=7 format=3 uid="uid://cvx54wxl5p41h"]
+[gd_scene load_steps=10 format=3 uid="uid://cvx54wxl5p41h"]
 
 [ext_resource type="Script" path="res://scripts/intro_scene.gd" id="1_v2cpa"]
 [ext_resource type="Texture2D" uid="uid://bgc7h6tac0j3p" path="res://assets/intro_background.png" id="1_vk3o4"]
 [ext_resource type="Texture2D" uid="uid://crlcq5scmoltb" path="res://assets/throne_england.png" id="2_bsusp"]
+[ext_resource type="Texture2D" uid="uid://bm3uhciduveco" path="res://assets/intro_dialogue_box.png" id="4_gylva"]
+[ext_resource type="FontFile" uid="uid://dtr1gcyn3bjki" path="res://assets/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf" id="5_bftfp"]
+
+[sub_resource type="Animation" id="Animation_hfmua"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Dialogue:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_pbt3m"]
 resource_name = "ThroneAppears"
@@ -20,23 +49,24 @@ tracks/0/keys = {
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
-[sub_resource type="Animation" id="Animation_hfmua"]
-length = 0.001
+[sub_resource type="Animation" id="Animation_yub4b"]
+resource_name = "InstructionsAppear"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
+tracks/0/path = NodePath("../Dialogue:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Color(1, 1, 1, 0)]
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qoa7g"]
 _data = {
+"InstructionsAppear": SubResource("Animation_yub4b"),
 "RESET": SubResource("Animation_hfmua"),
 "ThroneAppears": SubResource("Animation_pbt3m")
 }
@@ -50,10 +80,35 @@ centered = false
 
 [node name="Throne" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
-position = Vector2(640, 265)
+position = Vector2(640, 243)
 texture = ExtResource("2_bsusp")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Throne"]
+[node name="Dialogue" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(656, 555)
+texture = ExtResource("4_gylva")
+
+[node name="Instructions" type="Label" parent="Dialogue"]
+offset_left = -439.0
+offset_top = -88.0
+offset_right = 441.0
+offset_bottom = 93.0
+theme_override_fonts/font = ExtResource("5_bftfp")
+text = "In the year 1582, Sir Francis Walsingham, spymaster to Queen Elizabeth I, has been tasked with uncovering a sinister plot against the Queen's authority and life. As Walsingham, you must navigate through various cities, investigating suspects and untangling the conspiracy with the powers granted by Her Majesty. Legitimacy points represent the Queen's trust in you—if they drop to zero, your mission ends in failure. While questioning suspects and conducting basic investigations are safe, actions like surveillance and intimidation are riskier, consuming your limited clandestine moves. If you run out of clandestine moves, these covert actions will start costing you legitimacy, putting your authority on the line. Strategically balance your moves to protect the crown without losing your position or cover."
+autowrap_mode = 2
+
+[node name="Label" type="Label" parent="Dialogue"]
+offset_left = -217.0
+offset_top = 102.0
+offset_right = 184.0
+offset_bottom = 141.0
+theme_override_fonts/font = ExtResource("5_bftfp")
+theme_override_font_sizes/font_size = 18
+text = "Press Enter to begin"
+horizontal_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Throne")
 libraries = {
 "": SubResource("AnimationLibrary_qoa7g")
 }

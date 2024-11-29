@@ -1,0 +1,135 @@
+[
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In Canterbury, you find Archbishop Edmund Grindal attending to his ecclesiastical duties. He seems approachable, despite his busy schedule.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Investigating around Canterbury yields nothing suspicious. Grindal appears to be devoted to his duties, and his associates seem loyal.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Grindal nods thoughtfully as you speak. 'There are indeed rumours among the Catholic bishops,' he says quietly. 'Something may be afoot.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Grindal raises an eyebrow as you mention surveillance. 'Sir Francis, if you wish to waste time watching an old man attend to prayers and sermons, by all means—just don't fall asleep, it's unbecoming of a spymaster.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Grindal chuckles softly at your offer of a bribe. 'I appreciate your generosity, Sir Francis, but I fear my loyalty cannot be bought. Perhaps you might donate to the church instead?'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Grindal sighs deeply when threatened, a twinkle of humor in his eye. 'Threats, Sir Francis? I must admit, I’ve heard more convincing sermons from nervous deacons. Let us stay civil, shall we?'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Grindal has shared that there are rumours among the Catholic bishops. It seems that unrest may be brewing, though details are scarce.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Investigating further in Canterbury reveals nothing beyond the usual church activities. Grindal continues his duties without interruption.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Grindal seems pleased to see you again. 'The rumours, it seems, originate from Scotland,' he says. 'I suspect we may need to dig deeper. I could use your assistance, Sir Francis.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Grindal chuckles as you mention surveillance again. 'I assure you, my day involves far more paperwork and prayer than intrigue, Sir Francis. I hope you find it worth the watch.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Grindal shakes his head, smiling. 'Still trying to bribe me, are we? I’m afraid I remain unimpressed, Sir Francis. Perhaps you might try a different approach?'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Grindal gives you a knowing look. 'Threats again, Sir Francis? I would have thought you more creative by now. Let us keep to more civilized methods, shall we?'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Grindal has discovered that the rumours stem from Scotland. He believes that further investigation may uncover the truth, and he has asked for your assistance.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating the rumours takes time, but you discover that there may be connections to Edinburgh. It seems the Archbishop of St Andrews is at the center of it.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Grindal looks at you with a smile. 'Ah, Sir Francis, I see you are as determined as ever. We are making progress—though the true source still eludes us.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Grindal laughs warmly. 'Surveillance once more? I must say, I do hope you find the evening prayers as thrilling as the intrigues of the court.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Grindal sighs, a touch of amusement in his eyes. 'Bribery again, Sir Francis? I fear you might bankrupt yourself at this rate. Let us focus on more productive endeavors.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Grindal raises his hands in mock surrender. 'I concede, Sir Francis, your threats are as persistent as your loyalty to the crown. Shall we proceed with less dramatics?'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Your investigation has uncovered a potential lead in Edinburgh. It seems that the Archbishop of St Andrews may be at the center of the rumours. This could be a key to unraveling the plot.",
+    "update_id": 4
+  }
+]

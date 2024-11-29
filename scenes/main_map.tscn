@@ -1,14 +1,15 @@
 [gd_scene load_steps=8 format=3 uid="uid://wpmm8at5l3yk"]
 
+[ext_resource type="Script" path="res://scripts/main_map.gd" id="1_mbyje"]
 [ext_resource type="Texture2D" uid="uid://d4hwxvqy8meeu" path="res://assets/map_background.png" id="1_phlfu"]
 [ext_resource type="Texture2D" uid="uid://cus5vukyjo1li" path="res://assets/europe_map.png" id="2_1pqj6"]
-[ext_resource type="PackedScene" uid="uid://driebkuocmgvp" path="res://scenes/notebook.tscn" id="3_akufu"]
 [ext_resource type="Script" path="res://scripts/dialogue_markers.gd" id="4_jmcsn"]
 [ext_resource type="PackedScene" uid="uid://bdg27icubf848" path="res://scenes/map_marker.tscn" id="6_pnks2"]
 [ext_resource type="Script" path="res://scripts/camera_map.gd" id="6_y82m2"]
 [ext_resource type="PackedScene" uid="uid://c5sqndxne3l2" path="res://scenes/metrics_ui.tscn" id="7_afu3h"]
 
 [node name="MainMap" type="Node2D"]
+script = ExtResource("1_mbyje")
 
 [node name="MapBackground" type="Sprite2D" parent="."]
 position = Vector2(639, 359)
@@ -21,8 +22,6 @@ position = Vector2(640, 359)
 scale = Vector2(0.992, 0.986111)
 texture = ExtResource("2_1pqj6")
 
-[node name="Notebook" parent="." instance=ExtResource("3_akufu")]
-
 [node name="Dialogue" type="Node" parent="."]
 script = ExtResource("4_jmcsn")
 
@@ -32,13 +31,13 @@ script = ExtResource("4_jmcsn")
 
 [node name="London" parent="Dialogue/Markers" instance=ExtResource("6_pnks2")]
 z_index = 5
-position = Vector2(559, 519)
+position = Vector2(553, 516)
 marker_id = 1
 marker_name = "London"
 
 [node name="Dover" parent="Dialogue/Markers" instance=ExtResource("6_pnks2")]
 z_index = 5
-position = Vector2(600, 543)
+position = Vector2(581, 547)
 marker_id = 2
 marker_name = "Dover"
 
@@ -47,6 +46,30 @@ z_index = 5
 position = Vector2(482, 414)
 marker_id = 3
 marker_name = "Chartley Castle"
+
+[node name="Paris" parent="Dialogue/Markers" instance=ExtResource("6_pnks2")]
+z_index = 5
+position = Vector2(682, 668)
+marker_id = 4
+marker_name = "Paris"
+
+[node name="Canterbury" parent="Dialogue/Markers" instance=ExtResource("6_pnks2")]
+z_index = 5
+position = Vector2(608, 539)
+marker_id = 5
+marker_name = "Canterbury"
+
+[node name="Edinburgh" parent="Dialogue/Markers" instance=ExtResource("6_pnks2")]
+z_index = 5
+position = Vector2(497, 219)
+marker_id = 6
+marker_name = "Edinburgh"
+
+[node name="York" parent="Dialogue/Markers" instance=ExtResource("6_pnks2")]
+z_index = 5
+position = Vector2(554, 332)
+marker_id = 7
+marker_name = "York"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 z_index = 19

@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://dsjmb8dt5hxpc"]
 
 [ext_resource type="Script" path="res://scripts/dialogue_box.gd" id="1_1spu4"]
-[ext_resource type="Texture2D" uid="uid://5lamdv48dn7g" path="res://assets/dialogue_box _half_screen.png" id="1_b4xto"]
 [ext_resource type="Theme" uid="uid://dytt886l72gq0" path="res://assets/fonts/themes/dialogue_theme.tres" id="1_o453r"]
+[ext_resource type="Texture2D" uid="uid://l1ymc4c7ahvf" path="res://assets/dialogue_box_half_screen_no_tag.png" id="2_aj0fq"]
 
 [sub_resource type="Animation" id="Animation_01gw1"]
 resource_name = "DialogueBoxAppears"
@@ -48,22 +48,8 @@ script = ExtResource("1_1spu4")
 modulate = Color(1, 1, 1, 0)
 position = Vector2(618, 19)
 scale = Vector2(1.2, 1.2)
-texture = ExtResource("1_b4xto")
+texture = ExtResource("2_aj0fq")
 centered = false
-
-[node name="LabelPerson" type="Label" parent="Sprite"]
-anchors_preset = -1
-anchor_left = -0.00878906
-anchor_top = 0.000413566
-anchor_right = -0.000976562
-anchor_bottom = 0.000413568
-offset_left = 11.1667
-offset_top = 4.83333
-offset_right = 125.167
-offset_bottom = 27.8333
-theme = ExtResource("1_o453r")
-text = "Person Talking"
-metadata/_edit_use_anchors_ = true
 
 [node name="LabelText" type="Label" parent="Sprite"]
 anchors_preset = -1
@@ -110,10 +96,10 @@ layout_mode = 2
 theme = ExtResource("1_o453r")
 text = "Bribe"
 
-[node name="Torture" type="Button" parent="Sprite/GridContainer"]
+[node name="Threaten" type="Button" parent="Sprite/GridContainer"]
 layout_mode = 2
 theme = ExtResource("1_o453r")
-text = "Torture"
+text = "Threaten"
 
 [node name="Leave" type="Button" parent="Sprite/GridContainer"]
 layout_mode = 2
@@ -129,5 +115,5 @@ libraries = {
 [connection signal="pressed" from="Sprite/GridContainer/Talk" to="." method="_on_talk_pressed"]
 [connection signal="pressed" from="Sprite/GridContainer/Surveil" to="." method="_on_surveil_pressed"]
 [connection signal="pressed" from="Sprite/GridContainer/Bribe" to="." method="_on_bribe_pressed"]
-[connection signal="pressed" from="Sprite/GridContainer/Torture" to="." method="_on_torture_pressed"]
+[connection signal="pressed" from="Sprite/GridContainer/Threaten" to="." method="_on_torture_pressed"]
 [connection signal="pressed" from="Sprite/GridContainer/Leave" to="." method="_on_leave_pressed"]

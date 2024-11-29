@@ -1,0 +1,135 @@
+[
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In Paris, you locate Thomas Morgan, an exiled Welshman and former confidant of Mary, Queen of Scots. He was imprisoned in the Tower of London for three years before escaping to France following failed conspiracies against Elizabeth.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Investigating around Paris, you gather that Thomas Morgan is in touch with various individuals who share his Catholic leanings. His exile does not seem to have diminished his influence in those circles.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Thomas Morgan greets you with cautious politeness. He is careful not to reveal much, sticking to vague pleasantries during your conversation.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Surveillance yields little at this stage. Thomas Morgan moves between his quarters and gatherings, but nothing particularly incriminating stands out.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Morgan dismisses your offer of coin with a sneer. 'I did not leave England to be bought by another,' he says derisively.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "When threatened, Morgan maintains a stony demeanor. 'I've already faced the Tower once, Sir Francis,' he says. 'Do your worst.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Thomas Morgan has been active in Catholic circles here in Paris. He remains in contact with other exiles, some of whom may have ties to further plots.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Further investigation reveals Morgan attending meetings with other notable Catholic exiles, though the exact nature of their discussions remains unclear.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Morgan refuses to divulge anything of note. He is cautious, ensuring that nothing incriminating slips from his lips.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Your surveillance reveals Morgan meeting privately with a group of Catholic exiles. It appears he is still influential among them.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Morgan brushes off the offer of a bribe. 'My cause is not one to be betrayed for a few coins,' he insists.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "When threatened, Morgan cracks slightly. 'There may be others willing to talk... with some understanding,' he mutters, hinting at the vulnerability of his allies.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Morgan has shown a willingness to betray his allies, if he can reach an 'understanding' with the right people. His desperation might be useful.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating further reveals that Morgan is deeply embedded in Catholic exile society. He knows much but seems willing to negotiate his position.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Morgan looks uneasy as you speak. He knows his options are limited and appears to be considering his next move carefully.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Surveillance reveals little new information. Morgan is guarded, wary of being watched and careful not to be seen with questionable individuals.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "After much persuasion, and the right amount of coin, Morgan reveals that he may not know who leads the potential plot, but he knows of a prominent figure involved: an aristocrat, the son of a senior judge.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Morgan is clearly rattled, but refuses to give you anything more without assurance of his safety. His fear of betrayal keeps him silent.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Morgan has given you information about an aristocrat involved in the plot, a leading figure and the son of a prominent senior judge. This could be a vital lead.",
+    "update_id": 4
+  }
+]

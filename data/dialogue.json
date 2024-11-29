@@ -2,6 +2,13 @@
 	{
 		"marker_id":1, 
 		"status_id":1,
+		"action_id":0,
+		"message":"You return to the Palce of St James to be granted an audience with the Queen.", 
+		"update_id":1
+	},
+	{
+		"marker_id":1, 
+		"status_id":1,
 		"action_id":1,
 		"message":"Have you lost your marbles, Sir Francis?! You can't possibly investigate the Queen herself!", 
 		"update_id":1
@@ -33,5 +40,810 @@
 		"action_id":5, 
 		"message":"THIS IS OUTRAGEOUS! ARREST THIS MAN FOR TREASON!! [You lose 10 loyalty points]", 
 		"update_id":1
-	}
+	},
+	{
+		"marker_id":1,
+		"status_id":2,
+		"action_id":0,
+		"message":"Having examined all targets, you can confirm for the Queen that there is a plot afoot involving prominent Catholics in favor of Mary, Queen of Scots. The Queen thanks you for your service and rewards you handsomely.", 
+		"update_id":2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 1,
+	    "action_id": 0,
+	    "message": "In Dover, you come across Charles Paget, a former Cambridge student and the younger son of William Paget, 1st Baron Paget. He appears to be a figure of some interest, with potentially useful connections.",
+	    "update_id": 1
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 1,
+	    "action_id": 1,
+	    "message": "The area around Dover is mostly quiet. You notice some local gatherings, but nothing particularly stands out.",
+	    "update_id": 1
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 1,
+	    "action_id": 2,
+	    "message": "Charles Paget greets you cordially but keeps the conversation polite and shallow. He seems hesitant to discuss anything of importance.",
+	    "update_id": 1
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 1,
+	    "action_id": 3,
+	    "message": "Through careful surveillance, you observe Charles Paget attending a Catholic church service discreetly. It appears he is committed to his faith, despite the risks",
+	    "update_id": 2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 1,
+	    "action_id": 4,
+	    "message": "Charles Paget frowns at your suggestion of bribery. 'I am not interested in your coin, Sir Francis,' he replies curtly.",
+	    "update_id": 1
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 1,
+	    "action_id": 5,
+	    "message": "Charles Paget gives you an incredulous look. 'You dare threaten me, Sir Francis? This is not the conduct of a Queen's man.' He walks away, clearly offended.",
+	    "update_id": 1
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 2,
+	    "action_id": 0,
+	    "message": "We know that Charles Paget is secretely visiting a Catholic Church. This knowledge can prove to be useful.",
+	    "update_id": 2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 2,
+	    "action_id": 1,
+	    "message": "The area around Charles Paget's residence seems unremarkable. No unusual activity is observed during your investigation.",
+	    "update_id": 2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 2,
+	    "action_id": 2,
+	    "message": "After some persuasion, Charles Paget admits to being a Catholic zealot. He claims that he intends to leave England peacefully, though you sense there might be more to his story.",
+	    "update_id": 3
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 2,
+	    "action_id": 4,
+	    "message": "Charles Paget refuses any attempts at bribery, giving you a stern look. 'I am not a man to be swayed by gold, Sir Francis.'",
+	    "update_id": 2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 2,
+	    "action_id": 3,
+	    "message": "Charles Paget has not left his house the whole night. Surveillance has yielded little apart from the fact that its target seems uninterested in the pleasures of the night.'",
+	    "update_id": 2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 2,
+	    "action_id": 5,
+	    "message": "Charles Paget appears unshaken by your threats. He maintains his composure and simply walks away.",
+	    "update_id": 2
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 3,
+	    "action_id": 0,
+	    "message": "Charles Paget has admitted being a Catholic zealot, albeit a peaceful one. Is he really to be trusted? How can we use this knowledge to our advantage?",
+	    "update_id": 3
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 3,
+	    "action_id": 1,
+	    "message": "Investigating further, you notice Paget packing his belongings, seemingly preparing for a departure. It appears his claims of leaving England might be genuine.",
+	    "update_id": 3
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 3,
+	    "action_id": 2,
+	    "message": "Charles Paget seems embarrashed by his latest revelations. He becomes guarded and refuses to talk to you anymore.",
+	    "update_id": 3
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 3,
+	    "action_id": 3,
+	    "message": "Charles Paget continues his pattern of home-work-Church-home, in that order. Surveillance yields nothing new.",
+	    "update_id": 3
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 3,
+	    "action_id": 4,
+	    "message": "With the right amount of coin, Charles Paget reveals that there is movement among the bishops in the north of England. 'Something is brewing,' he warns, though he offers no further details.",
+	    "update_id": 4
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 3,
+	    "action_id": 5,
+	    "message": "Charles Paget is visibly angered by your threats. 'I have nothing more to say to you, Sir Francis,' he says, his tone cold and unyielding.",
+	    "update_id": 3
+	},
+	{
+	    "marker_id": 2,
+	    "status_id": 4,
+	    "action_id": 0,
+	    "message": "Charles Paget appears wary of you now, but the information about the bishops in the north lingers in your mind. It could be a lead worth following.",
+	    "update_id": 4
+	},
+	  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "You find Mary, Queen of Scots, imprisoned in Chartley Castle. She looks weary and uninterested in conversation.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "While investigating Chartley Castle, you discover a series of encrypted letters being smuggled to Mary. Their content is indecipherable for now, but clearly, something is afoot.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Mary remains tight-lipped, her eyes betraying nothing but disdain. She is clearly unwilling to speak to you.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Surveillance reveals nothing out of the ordinary at Chartley Castle. Mary appears isolated and well-guarded.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Mary scoffs at the offer of a bribe. 'Do you truly think gold can free me from these chains?' she retorts, unimpressed.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Mary is not intimidated by your threats. She scoffs and stays silent.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "You have found encrypted letters being smuggled to Mary. She clearly still has supporters, though their motives remain unclear.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Further investigation yields little else. The letters are heavily encrypted, and their meaning remains a mystery.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Mary refuses to speak to you. Her defiance is palpable, and she remains resolute in her silence.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Surveillance shows Mary praying fervently and speaking softly to her guards. Nothing of real significance is overheard.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Mary dismisses the offer of a bribe with contempt. 'I will not betray my cause for silver or gold,' she states firmly.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Your threats finally break Mary's composure. She speaks passionately of her faith and her followers, promising that they will act. Her words suggest an organized Catholic movement.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Mary, Queen of Scots, has hinted at a Catholic movement that may be planning something. Her words imply that her supporters are active and waiting for an opportunity.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Your investigations around Chartley Castle uncover little else of note. Mary remains under strict watch, and her supporters stay hidden.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Mary is reluctant to say more, her resolve hardened after your threats. She remains cautious and unwilling to speak further.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Surveilling Mary, you overhear a whispered conversation between her and a guard. There is mention of Catholic activity across the shores, though details are scarce.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Mary refuses any bribes, her determination unwavering. 'I will not be bought, Sir Francis,' she says defiantly.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Mary's defiance only grows stronger in the face of your threats. She remains steadfast, her faith seemingly giving her strength.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Mary's words have revealed that there is Catholic activity across the shores. This information could be crucial in understanding the threat to the crown.",
+    "update_id": 4
+  },
+    {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In Paris, you locate Thomas Morgan, an exiled Welshman and former confidant of Mary, Queen of Scots. He was imprisoned in the Tower of London for three years before escaping to France following failed conspiracies against Elizabeth.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Investigating around Paris, you gather that Thomas Morgan is in touch with various individuals who share his Catholic leanings. His exile does not seem to have diminished his influence in those circles.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Thomas Morgan greets you with cautious politeness. He is careful not to reveal much, sticking to vague pleasantries during your conversation.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Surveillance yields little at this stage. Thomas Morgan moves between his quarters and gatherings, but nothing particularly incriminating stands out.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Morgan dismisses your offer of coin with a sneer. 'I did not leave England to be bought by another,' he says derisively.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "When threatened, Morgan maintains a stony demeanor. 'I've already faced the Tower once, Sir Francis,' he says. 'Do your worst.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Thomas Morgan has been active in Catholic circles here in Paris. He remains in contact with other exiles, some of whom may have ties to further plots.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Further investigation reveals Morgan attending meetings with other notable Catholic exiles, though the exact nature of their discussions remains unclear.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Morgan refuses to divulge anything of note. He is cautious, ensuring that nothing incriminating slips from his lips.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Your surveillance reveals Morgan meeting privately with a group of Catholic exiles. It appears he is still influential among them.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Morgan brushes off the offer of a bribe. 'My cause is not one to be betrayed for a few coins,' he insists.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 4,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "When threatened, Morgan cracks slightly. 'There may be others willing to talk... with some understanding,' he mutters, hinting at the vulnerability of his allies.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Morgan has shown a willingness to betray his allies, if he can reach an 'understanding' with the right people. His desperation might be useful.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating further reveals that Morgan is deeply embedded in Catholic exile society. He knows much but seems willing to negotiate his position.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Morgan looks uneasy as you speak. He knows his options are limited and appears to be considering his next move carefully.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Surveillance reveals little new information. Morgan is guarded, wary of being watched and careful not to be seen with questionable individuals.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "After much persuasion, and the right amount of coin, Morgan reveals that he may not know who leads the potential plot, but he knows of a prominent figure involved: an aristocrat, the son of a senior judge.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 4,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Morgan is clearly rattled, but refuses to give you anything more without assurance of his safety. His fear of betrayal keeps him silent.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 4,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Morgan has given you information about an aristocrat involved in the plot, a leading figure and the son of a prominent senior judge. This could be a vital lead.",
+    "update_id": 4
+  },
+    {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In Canterbury, you find Archbishop Edmund Grindal attending to his ecclesiastical duties. He seems approachable, despite his busy schedule.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Investigating around Canterbury yields nothing suspicious. Grindal appears to be devoted to his duties, and his associates seem loyal.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Grindal nods thoughtfully as you speak. 'There are indeed rumours among the Catholic bishops,' he says quietly. 'Something may be afoot.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Grindal raises an eyebrow as you mention surveillance. 'Sir Francis, if you wish to waste time watching an old man attend to prayers and sermons, by all means—just don't fall asleep, it's unbecoming of a spymaster.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Grindal chuckles softly at your offer of a bribe. 'I appreciate your generosity, Sir Francis, but I fear my loyalty cannot be bought. Perhaps you might donate to the church instead?'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Grindal sighs deeply when threatened, a twinkle of humor in his eye. 'Threats, Sir Francis? I must admit, I’ve heard more convincing sermons from nervous deacons. Let us stay civil, shall we?'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Grindal has shared that there are rumours among the Catholic bishops. It seems that unrest may be brewing, though details are scarce.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Investigating further in Canterbury reveals nothing beyond the usual church activities. Grindal continues his duties without interruption.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Grindal seems pleased to see you again. 'The rumours, it seems, originate from Scotland,' he says. 'I suspect we may need to dig deeper. I could use your assistance, Sir Francis.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Grindal chuckles as you mention surveillance again. 'I assure you, my day involves far more paperwork and prayer than intrigue, Sir Francis. I hope you find it worth the watch.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Grindal shakes his head, smiling. 'Still trying to bribe me, are we? I’m afraid I remain unimpressed, Sir Francis. Perhaps you might try a different approach?'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Grindal gives you a knowing look. 'Threats again, Sir Francis? I would have thought you more creative by now. Let us keep to more civilized methods, shall we?'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Grindal has discovered that the rumours stem from Scotland. He believes that further investigation may uncover the truth, and he has asked for your assistance.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating the rumours takes time, but you discover that there may be connections to Edinburgh. It seems the Archbishop of St Andrews is at the center of it.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Grindal looks at you with a smile. 'Ah, Sir Francis, I see you are as determined as ever. We are making progress—though the true source still eludes us.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Grindal laughs warmly. 'Surveillance once more? I must say, I do hope you find the evening prayers as thrilling as the intrigues of the court.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Grindal sighs, a touch of amusement in his eyes. 'Bribery again, Sir Francis? I fear you might bankrupt yourself at this rate. Let us focus on more productive endeavors.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Grindal raises his hands in mock surrender. 'I concede, Sir Francis, your threats are as persistent as your loyalty to the crown. Shall we proceed with less dramatics?'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 5,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Your investigation has uncovered a potential lead in Edinburgh. It seems that the Archbishop of St Andrews may be at the center of the rumours. This could be a key to unraveling the plot.",
+    "update_id": 4
+  },
+    {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In Edinburgh, you find Archbishop Patrick Adamson attending to his parish duties. He is polite but maintains a reserved demeanor, keeping his distance as much as civility allows.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Your investigation around the parish reveals little beyond the usual comings and goings of the faithful. Adamson is well-regarded, though clearly cautious in his dealings.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "The Archbishop listens politely, but he offers little of substance. 'These are uncertain times, Sir Francis,' he says, 'but I am merely a servant of God.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Through careful surveillance, you observe that Archbishop Adamson has been receiving letters from Catholics in both England and France. The contents of these letters are still unknown, but they hint at something significant.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Adamson gives a faint smile as you hint at bribery. 'Sir Francis, do you think the Church of Scotland can be bought so easily? My loyalty is not for sale.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "The Archbishop's expression hardens slightly when threatened. 'I am a man of God, Sir Francis, and I fear not the threats of men. You will find no allies here.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Surveillance has revealed that Archbishop Adamson is receiving letters from Catholics in England and France. This correspondence suggests a possible connection to a larger plot.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Investigating the Archbishop's contacts and surroundings reveals further evidence. You discover several letters bearing the royal insignia of Mary, Queen of Scots, hinting at a potential plot.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Adamson remains cautious, speaking in vague terms. 'There is much uncertainty, Sir Francis. I am but a humble servant, trying to keep the peace.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Surveilling Archbishop Adamson further reveals that he is in regular communication with several influential figures. His involvement in something larger seems more apparent.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Adamson gives you a weary smile when you mention money. 'Sir Francis, I assure you, my soul is not swayed by the glint of coin.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "The Archbishop frowns at your threats, his voice stern. 'You overstep, Sir Francis. I serve no master but God, and I will not be coerced.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Your investigation has confirmed that the letters received by Archbishop Adamson are indeed about a plot, bearing the royal insignia of Mary, Queen of Scots. This is evidence of something significant.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Further investigation reveals that Archbishop Adamson's connections run deep, and his correspondence includes details that point towards something serious brewing across the borders.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Seeing that you have already seen the letters, Adamson relents. 'Yes, there is a plot,' he admits. 'The man at the head of it must be located souther from here.'",
+    "update_id": 4
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Surveillance reveals little beyond what you already know. Adamson remains careful, his movements calculated and deliberate.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Adamson shakes his head as you mention money once again. 'Your persistence is admirable, Sir Francis, but I will not change my stance.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Adamson's gaze hardens when faced with threats. 'You have your evidence, Sir Francis. I will say no more.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Archbishop Adamson has confirmed that there is indeed a plot, and it is being led by someone further south. This information could be crucial in uncovering the truth.",
+    "update_id": 4
+  },
+    {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In York, you find Sir Francis Throckmorton delivering lectures on Jesuits and their faith. His tone is clearly propagandist, but he remains cordial to you, acknowledging your presence as a fellow aristocrat.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Your investigation around the lecture hall yields nothing particularly interesting. Throckmorton appears focused on his lectures and his interactions with the audience are limited to formalities.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Throckmorton gives you a knowing smile as you talk to him. 'Ah, Sir Francis, the Catholic Church always appreciates the charity of the faithful. It helps alleviate the suffering of the poor, you know.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Surveillance reveals nothing beyond Throckmorton’s usual lectures and interactions with attendees. He seems careful to maintain his public persona.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Throckmorton chuckles softly when you mention money. 'I am always in favor of aiding those less fortunate, Sir Francis, but I fear such generosity is best directed elsewhere for now.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Throckmorton’s expression turns cold when you threaten him. 'Sir Francis, let us not forget we are both men of standing. Such crude tactics are beneath us, are they not?'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Throckmorton has mentioned that the Catholic Church is receiving generous donations to alleviate the suffering of the poor. He seems to hint at something more significant beneath the surface.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Further investigation reveals little beyond Throckmorton’s lectures and usual public appearances. He maintains an air of respectability in all he does.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Throckmorton remains cordial but cautious, providing no new information. 'I am merely an observer of faith, Sir Francis, nothing more.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Surveillance of Throckmorton reveals nothing beyond his usual activities. He is meticulous in maintaining his public persona.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Throckmorton raises an eyebrow as you offer him money. 'For the charities, you say? Very well, Sir Francis, I will see to it. You may be interested to know that things are indeed stirring in the Catholic world.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Throckmorton sighs at your threats. 'Please, Sir Francis, such brutishness is unbecoming of a gentleman like yourself. Let us proceed with more decorum.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Throckmorton has hinted that something is indeed stirring within the Catholic world. He seems to know more than he is willing to share openly.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Investigating further into Throckmorton's affairs yields few new details. His movements are guarded, and his activities remain largely public.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Throckmorton offers you a tight-lipped smile. 'I am but a lecturer, Sir Francis. My influence is limited to words and teachings, nothing more.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Through surveillance, you discover that Throckmorton has been attending secret meetings with known Catholic plotters. His involvement in something larger is undeniable.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Throckmorton gives you a wry smile as you mention more money. 'Sir Francis, I must admit, your persistence is impressive. But there are some things that coin cannot buy.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Throckmorton’s tone turns icy at your threats. 'You may find that threats make for poor allies, Sir Francis. I suggest a different approach.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 7,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Surveillance has confirmed that Throckmorton is involved in secret meetings with Catholic plotters. This is undeniable proof of his role in a larger conspiracy.",
+    "update_id": 4
+  }
 ]

@@ -1,0 +1,135 @@
+[
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "In Edinburgh, you find Archbishop Patrick Adamson attending to his parish duties. He is polite but maintains a reserved demeanor, keeping his distance as much as civility allows.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "Your investigation around the parish reveals little beyond the usual comings and goings of the faithful. Adamson is well-regarded, though clearly cautious in his dealings.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "The Archbishop listens politely, but he offers little of substance. 'These are uncertain times, Sir Francis,' he says, 'but I am merely a servant of God.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Through careful surveillance, you observe that Archbishop Adamson has been receiving letters from Catholics in both England and France. The contents of these letters are still unknown, but they hint at something significant.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Adamson gives a faint smile as you hint at bribery. 'Sir Francis, do you think the Church of Scotland can be bought so easily? My loyalty is not for sale.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "The Archbishop's expression hardens slightly when threatened. 'I am a man of God, Sir Francis, and I fear not the threats of men. You will find no allies here.'",
+    "update_id": 1
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "Surveillance has revealed that Archbishop Adamson is receiving letters from Catholics in England and France. This correspondence suggests a possible connection to a larger plot.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Investigating the Archbishop's contacts and surroundings reveals further evidence. You discover several letters bearing the royal insignia of Mary, Queen of Scots, hinting at a potential plot.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Adamson remains cautious, speaking in vague terms. 'There is much uncertainty, Sir Francis. I am but a humble servant, trying to keep the peace.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Surveilling Archbishop Adamson further reveals that he is in regular communication with several influential figures. His involvement in something larger seems more apparent.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Adamson gives you a weary smile when you mention money. 'Sir Francis, I assure you, my soul is not swayed by the glint of coin.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "The Archbishop frowns at your threats, his voice stern. 'You overstep, Sir Francis. I serve no master but God, and I will not be coerced.'",
+    "update_id": 2
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Your investigation has confirmed that the letters received by Archbishop Adamson are indeed about a plot, bearing the royal insignia of Mary, Queen of Scots. This is evidence of something significant.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Further investigation reveals that Archbishop Adamson's connections run deep, and his correspondence includes details that point towards something serious brewing across the borders.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Seeing that you have already seen the letters, Adamson relents. 'Yes, there is a plot,' he admits. 'The man at the head of it must be located souther from here.'",
+    "update_id": 4
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Surveillance reveals little beyond what you already know. Adamson remains careful, his movements calculated and deliberate.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Adamson shakes his head as you mention money once again. 'Your persistence is admirable, Sir Francis, but I will not change my stance.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Adamson's gaze hardens when faced with threats. 'You have your evidence, Sir Francis. I will say no more.'",
+    "update_id": 3
+  },
+  {
+    "marker_id": 6,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Archbishop Adamson has confirmed that there is indeed a plot, and it is being led by someone further south. This information could be crucial in uncovering the truth.",
+    "update_id": 4
+  }
+]

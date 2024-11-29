@@ -1,0 +1,31 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://b05ebx7sfy4ig"]
+
+[ext_resource type="Texture2D" uid="uid://dlahuxgoeaiwr" path="res://assets/button_hover.png" id="1_gtp51"]
+[ext_resource type="Texture2D" uid="uid://d4hwxvqy8meeu" path="res://assets/map_background.png" id="1_nfliy"]
+[ext_resource type="Texture2D" uid="uid://bp08prhehuymn" path="res://assets/button_normal.png" id="1_rktf0"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eaele"]
+texture = ExtResource("1_gtp51")
+texture_margin_left = 12.0
+texture_margin_top = 6.0
+texture_margin_right = 12.0
+texture_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fwqvq"]
+texture = ExtResource("1_rktf0")
+texture_margin_left = 12.0
+texture_margin_top = 6.0
+texture_margin_right = 12.0
+texture_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hbt1k"]
+texture = ExtResource("1_nfliy")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+
+[resource]
+Button/styles/hover = SubResource("StyleBoxTexture_eaele")
+Button/styles/normal = SubResource("StyleBoxTexture_fwqvq")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_hbt1k")

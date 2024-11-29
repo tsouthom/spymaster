@@ -1,0 +1,135 @@
+[
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 0,
+    "message": "You find Mary, Queen of Scots, imprisoned in Chartley Castle. She looks weary and uninterested in conversation.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 1,
+    "message": "While investigating Chartley Castle, you discover a series of encrypted letters being smuggled to Mary. Their content is indecipherable for now, but clearly, something is afoot.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 2,
+    "message": "Mary remains tight-lipped, her eyes betraying nothing but disdain. She is clearly unwilling to speak to you.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 3,
+    "message": "Surveillance reveals nothing out of the ordinary at Chartley Castle. Mary appears isolated and well-guarded.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 4,
+    "message": "Mary scoffs at the offer of a bribe. 'Do you truly think gold can free me from these chains?' she retorts, unimpressed.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 1,
+    "action_id": 5,
+    "message": "Mary is not intimidated by your threats. She scoffs and stays silent.",
+    "update_id": 1
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 0,
+    "message": "You have found encrypted letters being smuggled to Mary. She clearly still has supporters, though their motives remain unclear.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 1,
+    "message": "Further investigation yields little else. The letters are heavily encrypted, and their meaning remains a mystery.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 2,
+    "message": "Mary refuses to speak to you. Her defiance is palpable, and she remains resolute in her silence.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 3,
+    "message": "Surveillance shows Mary praying fervently and speaking softly to her guards. Nothing of real significance is overheard.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 4,
+    "message": "Mary dismisses the offer of a bribe with contempt. 'I will not betray my cause for silver or gold,' she states firmly.",
+    "update_id": 2
+  },
+  {
+    "marker_id": 3,
+    "status_id": 2,
+    "action_id": 5,
+    "message": "Your threats finally break Mary's composure. She speaks passionately of her faith and her followers, promising that they will act. Her words suggest an organized Catholic movement.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 0,
+    "message": "Mary, Queen of Scots, has hinted at a Catholic movement that may be planning something. Her words imply that her supporters are active and waiting for an opportunity.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 1,
+    "message": "Your investigations around Chartley Castle uncover little else of note. Mary remains under strict watch, and her supporters stay hidden.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 2,
+    "message": "Mary is reluctant to say more, her resolve hardened after your threats. She remains cautious and unwilling to speak further.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 3,
+    "message": "Surveilling Mary, you overhear a whispered conversation between her and a guard. There is mention of Catholic activity across the shores, though details are scarce.",
+    "update_id": 4
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 4,
+    "message": "Mary refuses any bribes, her determination unwavering. 'I will not be bought, Sir Francis,' she says defiantly.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 3,
+    "action_id": 5,
+    "message": "Mary's defiance only grows stronger in the face of your threats. She remains steadfast, her faith seemingly giving her strength.",
+    "update_id": 3
+  },
+  {
+    "marker_id": 3,
+    "status_id": 4,
+    "action_id": 0,
+    "message": "Mary's words have revealed that there is Catholic activity across the shores. This information could be crucial in understanding the threat to the crown.",
+    "update_id": 4
+  }
+]
