@@ -2,14 +2,19 @@ extends Camera2D
 
 var move_speed = 300
 var follow_speed = 2
-var edge_threshold = 40 # Distance from the screen edge to trigger movement
+var edge_threshold = 60 # Distance from the screen edge to trigger movement
 var screen_size = Vector2()
 
 func _ready():
 	# Cache the screen size once at startup
-	screen_size = get_viewport().size
+	#screen_size = get_viewport().size
+	var screen_size = DisplayServer.window_get_size()
 
 func _process(delta):
+	# Always get the current screen size in case it has changed
+	#var screen_size = get_viewport().size
+	var screen_size = DisplayServer.window_get_size()
+	
 	var mouse_pos = get_viewport().get_mouse_position()
 	var mouse_input = Vector2()
 	

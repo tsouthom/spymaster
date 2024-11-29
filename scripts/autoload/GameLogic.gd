@@ -37,5 +37,7 @@ var marker_data = {
 	2: {"name": "Dover", "status": 1},
 	3: {"name": "Chartley Castle", "status": 1},
 	4: {"name": "Paris", "status": 1},
-	5: {"name": "Canterbury", "status": 1}
+	5: {"name": "Canterbury", "status": 1},
+	6: {"name": "Edinburgh", "status": 1},
+	7: {"name": "York", "status": 1}
 }
